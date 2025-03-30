@@ -1,0 +1,106 @@
+@media(min-width:1500px){.container,.container-xxl,.container-xl,.container-lg,.container-md,.container-sm{max-width: 1300px !important;}}
+
+@media(min-width:1600px){.container,.container-xxl,.container-xl,.container-lg,.container-md,.container-sm{max-width: 1400px !important;}}
+
+@media(min-width:1700px){.container,.container-xxl,.container-xl,.container-lg,.container-md,.container-sm{max-width: 1500px !important;}}
+
+@media(min-width:1800px){.container,.container-xxl,.container-xl,.container-lg,.container-md,.container-sm{max-width: 1600px !important;}}
+
+@media(min-width:1900px){.container,.container-xxl,.container-xl,.container-lg,.container-md,.container-sm{max-width: 1700px !important;}}
+/* font start */
+/* 400 */
+@font-face{
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+.col-xxl-12{
+    padding: 0px !important;
+}
+/* font end */
+/* root start */
+:root{
+    --border-color: #e4e5e7;
+    --five: 5px;
+    --ten: 10px;
+    --fiften: 15px;
+}
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+/* root end */
+.bc-1{
+    border:2px solid var(--border-color) ;
+}
+.br-5{
+   border-radius: var(--five); 
+}
+.br-10{
+    border-radius: var(--ten);
+}
+.br-15{
+    border-radius: var(--fiften);
+}
+.nav-link{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.banner{
+    /* height: 600px; */
+    background-color: #1bb5e4;
+    padding: 0px !important;
+}
+.catagorie{
+    /* height: 180px; */
+}
+.c-card-f{
+    padding-left: 0px !important;
+}
+.c-card-l{
+    padding-right: 0px !important;
+}
+.c-card{
+    height: 150px;
+    padding: 10px 10px;
+}
+.c-card p{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+}
+/* top-btn start */
+.top-btn{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.top-btn img{
+    mix-blend-mode: darken;
+}
+/* top-btn end */
+/* footer start */
+.footer{
+    height: 50px;
+}
+/* footer end */

@@ -1,0 +1,195 @@
+<a class="navbar-brand" href="#" alt="faisul">
+    <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+        <!-- circle -->
+        <path d="M 20 20 H 40 V 25 C 40 30 40 30 38 32 C 35 30 30 35 32 38 C 30 40 30 40 25 40 H 15 C 10 40 10 40 8 38 C 10 35 5 30 2 32 C 0 30 0 30 0 25 V 15 C 0 10 0 10 2 8 C 5 10 10 5 8 2 C 10 0 10 0 15 0 H 25 C 30 0 30 0 32 2 C 30 5 35 10 38 8 C 40 10 40 10 40 15 V 20" fill="#0be44c"></path>
+        <!-- f -->
+        <path d="M 16 8 C 14 8 14 8 14 10 V 15 V 31 C 14 33 14 33 16 33 H 17 C 19 33 19 33 19 31 V 8 M 19 8 L 27 8 C 29 8 29 8 29 10 L 29 11 C 29 13 29 13 27 13 L 21 13 C 19 13 19 13 19 15 L 19 16 m 2 2 H 21 C 19 18 19 18 19 16 V 25 C 19 23 19 23 21 23 M 21 18 H 25 C 27 18 27 18 27 20 V 21 C 27 23 27 23 25 23 H 21" fill="#ffffff"></path>
+    </svg>
+</a>
+
+Pages{
+    Home(page){
+        Header{
+            (Customer)Logo     Home-Order-Hire-Project-Login-SignUp
+            (P/F time)Logo     Home-Order-Hire-Project-Login-SignUp
+            (Event manager)Logo     Home-Order-Hire-Project-Login-SignUp
+            (Project manager)Logo     Home-Order-Hire-Project-Login-SignUp
+        }
+        Slider{ 
+            Quotes: Wake up! success is waiting for you. btn: Join Us
+            Quotes: Stop chasing the money and start chasing the passion.
+        }
+        CatagoriesBanner{
+            Remote Job
+            Tuition
+            Entrepreneur
+            Business
+        }
+        Services{}
+        Footer{
+            
+        }
+    }
+
+    Shop/Order(Page){
+        Sidebar&Topbar(section){
+            Location{}
+            Progressbar{ 
+                Money
+            }
+            Catagories(section){
+
+            }
+        }
+        Body{
+            Products{}
+        }
+    }
+
+    Hire(page){
+        Sidebar&Topbar{
+            Location{}
+            Progressbar{
+                Money
+            }
+            Catagories{}
+        }
+        Body{
+            Post{}
+        }
+    }
+
+    Login(page){}
+
+    Sign-up(page){}
+
+    Profile{
+        Orders{
+            Statement,
+            Status: Pendign -> Negotiation -> Processing -> Complete
+        } 
+        Hires{
+            Statement,
+            Status: Pendign -> Negotiation -> Working -> Complete
+        } 
+        Projects{
+            Statement,
+            Status: Processing -> Negotiation -> Complete
+        } 
+                
+    }
+    Customer extends Profile{
+
+    }
+    Part/Full time extends Profile{
+
+    }
+    
+    Careers{
+        Slider{
+            Quotes: We offer an environment where you can grow and accelerate your career.​
+        }
+    }
+    EventManager extends Profile{
+
+    }
+    ProjectManager  extends Profile{
+
+    }
+    
+}
+Admin Dashboard{}
+*Account {}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>faisul.com</title>
+</head>
+
+<body>
+    <!-- header-start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <!-- logo-start -->
+                <a class="navbar-brand" href="#" alt="faisul">
+                    <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+                        <!-- circle -->
+                        <path d="M 20 20 H 40 V 25 C 40 30 40 30 38 32 C 35 30 30 35 32 38 C 30 40 30 40 25 40 H 15 C 10 40 10 40 8 38 C 10 35 5 30 2 32 C 0 30 0 30 0 25 V 15 C 0 10 0 10 2 8 C 5 10 10 5 8 2 C 10 0 10 0 15 0 H 25 C 30 0 30 0 32 2 C 30 5 35 10 38 8 C 40 10 40 10 40 15 V 20" fill="#0be44c"></path>
+                        <!-- f -->
+                        <path d="M 14 8 C 12 8 12 8 14 10 V 15 V 31 C 12 33 12 33 14 33 H 19 C 21 33 21 33 19 31 V 8 M 19 8 L 27 8 C 29 6 29 6 29 8 L 29 13 C 29 15 29 15 27 13 L 21 13 C 19 13 19 13 19 15 L 19 16 m 2 2 H 21 C 19 18 19 18 19 16 V 25 C 19 23 19 23 21 23 M 21 18 H 25 C 27 16 27 16 27 18 V 23 C 27 25 27 25 25 23 H 21" fill="#ffffff"></path>
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- logo-end -->
+                <!-- navbar-start -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- search-start -->
+                    <form class="d-flex mx-auto">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                    <!-- search-end -->
+                    <!-- menu-start -->
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <!-- menu-end -->
+                </div>
+                <!-- navbar-end -->
+            </div>
+        </nav>
+    </header>
+    <!-- header-end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- script -->
+        <script src="js/script.js"></script>
+        <script src="js/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+
+</html>
